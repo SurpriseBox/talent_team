@@ -343,7 +343,7 @@
 .fourth-screen{
 	top: -500px;
 	height: 911px;
-	z-index: 1;
+	z-index: 0;
 }
 
 .fourth-screen-background{
@@ -351,8 +351,8 @@
 }
 
 .fourth-screen-header-block{
-	height: 74.5px;
-	top: 42px;
+	height: 60.5px;
+	top: 52px;
 }
 
 .fourth-screen-header-block__header{
