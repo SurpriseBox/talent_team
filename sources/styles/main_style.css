@@ -150,31 +150,6 @@
 	z-index: 1;
 }
 
-.first-screen-background__layer-image{
-	width: 779px;
-	height: 883px;
-	top: 26.74px;
-	left: 0px;
-}
-
-.first-screen-background__layer-2{
-	top: 30px;
-}
-
-.first-screen-background__layer-3{
-	top: 800px;
-	left: 70px;
-}
-
-.first-screen-background__layer-4{
-	top: 30px;
-	left: 330px;
-}
-
-.first-screen-background__layer-5{
-	top: 590px;
-}
-
 .first-screen-information-block{
 	position: relative;
 	width: 541px;
