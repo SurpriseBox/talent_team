@@ -1,52 +1,64 @@
 <head>
 	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="styles/main_style.css" />
-	<link rel="stylesheet" type="text/css" href="styles/fonts/additional_fonts.css" />
+	<link rel="stylesheet" href="styles/main_style.css">
+	<link rel="stylesheet" href="styles/animate.additional.css">
+	<link rel="stylesheet" href="styles/fonts/additional_fonts.css">
+	<script src="styles/scripts/js_scripts.js"></script>
+	<script src="styles/scripts/wow.min.js"></script>
+	<script> 
+		new WOW().init();
+	</script>
 </head>
 
 <body class="body">
-	<header class="screen page-header">
-		<section class="background header-background">
-			<img class="background-elem header-background__layer-1" src="styles/backgrounds/h-background__layer-1.svg" >
-		</section>
+	<script type="text/javascript">
+		change_viewport();
+	</script>
+	
+	<section class="page-top-block wow fadeInUp">
+		<header class="screen page-header">
+			<section class="background header-background">
+				<img class="background-elem header-background__layer-1" src="styles/backgrounds/h-background__layer-1.svg" >
+			</section>
 
-		<section class="header-logo">
-			<a href="#"><img class="header-logo__image" src="styles/backgrounds/h-logo__image.svg"></a>
-		</section>
+			<section class="header-logo wow slideInUp">
+				<a href="#"><img class="header-logo__image" src="styles/backgrounds/h-logo__image.svg"></a>
+			</section>
 
-		<section class="header-menu">
-			<a href="#" class="link header-menu__item">Стажировка</a>
-			<a href="#" class="link header-menu__item">О проекте</a>
-			<a href="#" class="link header-menu__item">Для Бизнеса</a>
-			<button class="button header-menu__button">Связаться</button>
-		</section>
-	</header>
+			<section class="header-menu wow slideInUp">
+				<a href="#" class="link header-menu__item">Стажировка</a>
+				<a href="#" class="link header-menu__item">О проекте</a>
+				<a href="#" class="link header-menu__item">Для Бизнеса</a>
+				<button class="button header-menu__button" onclick="scroll_to_bottom()">Связаться</button>
+			</section>
+		</header>
 
-	<section class="screen first-screen">
-		<section class="background first-screen-background">
-			<img class="background-elem first-screen-background__layer-image" src="styles/backgrounds/first-screen-background__layer-image.png">
-		</section>
+		<section class="screen first-screen">
+			<section class="background first-screen-background">
+				<img class="background-elem first-screen-background__layer-image" src="styles/backgrounds/first-screen-background__layer-image.png">
+			</section>
 
-		<section class="first-screen-information-block">
-			<div class="first-screen-information-block__header">У ТЕБЯ ЕСТЬ ТАЛАНТ?</div>
-			<div class="first-screen-information-block__introductory-text default-font">Но ты не знаешь как применить его?</div>
-			<div class="first-screen-information-block__main-text default-font">Вместе с нами начинающие специалисты развиваются в сфере digital, создают прибыльные проекты, строят карьерную лестницу.</div>
-			<button class="button first-screen-information-block__button">Подробнее</button>
+			<section class="first-screen-information-block wow slideInUp">
+				<div class="first-screen-information-block__header">У ТЕБЯ ЕСТЬ ТАЛАНТ?</div>
+				<div class="first-screen-information-block__introductory-text default-font">Но ты не знаешь как применить его?</div>
+				<div class="first-screen-information-block__main-text default-font">Вместе с нами начинающие специалисты развиваются в сфере digital, создают прибыльные проекты, строят карьерную лестницу.</div>
+				<button class="button first-screen-information-block__button">Подробнее</button>
+			</section>
 		</section>
 	</section>
 
-	<section class="screen second-screen">
+	<section class="screen second-screen wow fadeInUp">
 		<section class="background second-screen-background ">
 			<img class="background-elem second-screen-background__layer-1" src="styles/backgrounds/second-screen-background__layer-1.svg">
 		</section>
 
-		<section class="screen-header-block second-screen-header-block">
+		<section class="screen-header-block second-screen-header-block wow slideInUp">
 			<div class="second-screen-header-block__header">Что мешает тебе делать это сейчас?</div>
 			<img class="second-screen-header-block__separator" src="styles/backgrounds/second-screen-header-block__separator.svg">
 			<div class="second-screen-header-block__text">Давай вместе посмотрим на проблемы:</div>
 		</section>
 
-		<section class="second-screen-information-block ">
+		<section class="second-screen-information-block wow slideInUp">
 			<div class="information-block-element ">
 				<img class="background-elem information-block-element-background__layer-1" src="styles/backgrounds/information-block-element-background__layer-1-1.png">
 				<img class="background-elem information-block-element-background__layer-2" src="styles/backgrounds/information-block-element-background__layer-2-1.svg">
@@ -73,28 +85,28 @@
 		</section>
 	</section>
 
-	<section class="screen third-screen">
+	<section class="screen third-screen wow fadeInUp">
 		<section class="background third-screen-background ">
 			<img class="background-elem third-screen-background__layer-1" src="styles/backgrounds/third-screen-background__layer-1.jpg">
 			<img class="background-elem third-screen-background__layer-2" src="styles/backgrounds/third-screen-background__layer-2.svg">
 		</section>
 
-		<section class="third-screen-article ">
+		<section class="third-screen-article wow slideInUp">
 			<div class="third-screen-article__text">Цель нашего проекта — поставить тебя в условия реальной работы, но без гнетущей ответственности.</div>
 		</section>
 	</section>
 
-	<section class="screen fourth-screen">
+	<section class="screen fourth-screen wow fadeInUp">
 		<section class="background fourth-screen-background">
 			<img class="background-elem fourth-screen-background__layer-1" src="styles/backgrounds/fourth-screen-background__layer-1.svg">
 		</section>
 
-		<section class="screen-header-block fourth-screen-header-block">
+		<section class="screen-header-block fourth-screen-header-block wow slideInUp">
 			<div class="fourth-screen-header-block__header">Кого мы ищем?</div>
 			<img class="fourth-screen-header-block__separator" src="styles/backgrounds/fourth-screen-header-block__separator.svg">
 		</section>
 
-		<section class="fourth-screen-information-block ">
+		<section class="fourth-screen-information-block wow slideInUp">
 			<div class="fourth-screen-information-block-element text-align_right ">
 				<div class="fourth-screen-information-block-element-part">
 					<div class="fourth-screen-information-block-element-part__header">Журналистов, SMM</div>
@@ -123,18 +135,18 @@
 		</section>
 	</section>
 
-	<section class="screen fifth-screen">
+	<section class="screen fifth-screen wow fadeInUp">
 		<section class="background fifth-screen-background">
 			<img class=" fifth-screen-background__layer-1" src="styles/backgrounds/fifth-screen-background__layer-1.svg">
 			<img class=" fifth-screen-background__layer-2" src="styles/backgrounds/fifth-screen-background__layer-2.svg">
 		</section>
 
-		<section class="screen-header-block fifth-screen-header-block ">
+		<section class="screen-header-block fifth-screen-header-block wow slideInUp">
 			<div class="fifth-screen-header-block__header">Как это работает?</div>
 			<img class="fifth-screen-header-block__separator" src="styles/backgrounds/fifth-screen-header-block__separator.svg">
 		</section>
 
-		<section class="fifth-screen-information-block">
+		<section class="fifth-screen-information-block wow slideInUp">
 			<div class="fifth-screen-information-block-element text-align_left">
 				<div class="fifth-screen-information-block-element-part">
 					<div class="fifth-screen-information-block-element-part__header">Ты хочешь пройти<br>стажировку</div>
@@ -163,17 +175,17 @@
 		</section>
 	</section>
 
-	<section class="screen sixth-screen">
+	<section class="screen sixth-screen wow fadeInUp">
 		<section class="background sixth-screen-background">
 			<img class="background-elem sixth-screen-background__layer-1" src="styles/backgrounds/sixth-screen-background__layer-1.svg">
 		</section>
 
-		<section class="screen-header-block sixth-screen-header-block ">
+		<section class="screen-header-block sixth-screen-header-block wow slideInUp">
 			<img class="sixth-seventh-screen-header-block__separator" src="styles/backgrounds/sixth-screen-header-block__separator.svg">
 			<div class="sixth-screen-header-block__header">Что ты получишь?</div>
 		</section>
 
-		<section class="sixth-screen-information-block text-align_left ">
+		<section class="sixth-screen-information-block text-align_left wow slideInUp">
 			<section class="sixth-screen-information-block-left-half ">
 				<div class="sixth-screen-information-block-element ">
 					<div class="sixth-screen-information-block-element-header">
@@ -225,17 +237,17 @@
 		</section>
 	</section>
 
-	<section class="screen seventh-screen">
+	<section class="screen seventh-screen wow fadeInUp">
 		<section class="background seventh-screen-background">
 			<img class="background-elem seventh-screen-background__layer-1" src="styles/backgrounds/seventh-screen-background__layer-1.svg">
 		</section>
 
-		<section class="screen-header-block seventh-screen-header-block">
+		<section class="screen-header-block seventh-screen-header-block wow slideInUp">
 			<img class="sixth-seventh-screen-header-block__separator" src="styles/backgrounds/sixth-screen-header-block__separator.svg">
 			<div class="seventh-screen-header-block__header">Что требуется от тебя?</div>
 		</section>
 
-		<section class="seventh-screen-information-block text-align_left">
+		<section class="seventh-screen-information-block text-align_left wow slideInUp">
 			<section class="seventh-screen-information-block-left-half ">
 				<div class="sixth-screen-information-block-element ">
 					<div class="sixth-screen-information-block-element-header">
@@ -305,39 +317,41 @@
 		</section>		
 	</section>
 
-	<section class="screen feedback-screen">
-		<section class="background feedback-screen-background">
-			<img class="background-elem feedback-screen-background__layer-1" src="styles/backgrounds/feedback-screen-background__layer-1.svg">
-			<img class="background-elem feedback-screen-background__layer-2" src="styles/backgrounds/feedback-screen-background__layer-2.svg">
+	<section class="page-bottom-block wow fadeInUp">
+		<section class="screen feedback-screen">
+			<section class="background feedback-screen-background">
+				<img class="background-elem feedback-screen-background__layer-1" src="styles/backgrounds/feedback-screen-background__layer-1.svg">
+				<img class="background-elem feedback-screen-background__layer-2" src="styles/backgrounds/feedback-screen-background__layer-2.svg">
+			</section>
+
+			<section class="feedback-block wow slideInUp">
+				<div class="feedback-block__header">Попробуем?</div>
+				<div class="feedback-block__text">
+					В теме письма расскажи о себе, об опыте<br>
+					(если он есть) и оставь свой номер телефона
+				</div>
+				<div class="feedback-block-input-fields ">
+					<input type="email" name="email-field" placeholder="E-mail" class="input-field feedback-block__email-input-field default-font">
+					<textarea type="text" name="text-field" placeholder="Текст сообщения" class="input-field feedback-block__text-input-field default-font"></textarea>
+				</div>
+				<button class="button feedback-block__send-button">Написать</button>
+			</section>
 		</section>
 
-		<section class="feedback-block ">
-			<div class="feedback-block__header">Попробуем?</div>
-			<div class="feedback-block__text">
-				В теме письма расскажи о себе, об опыте<br>
-				(если он есть) и оставь свой номер телефона
-			</div>
-			<div class="feedback-block-input-fields ">
-				<input type="email" name="email-field" placeholder="E-mail" class="input-field feedback-block__email-input-field default-font">
-				<textarea type="text" name="text-field" placeholder="Текст сообщения" class="input-field feedback-block__text-input-field default-font"></textarea>
-			</div>
-			<button class="button feedback-block__send-button">Написать</button>
-		</section>
-	</section>
+		<section class="screen page-footer">
+			<section class="page-footer-information ">
+				<a class="link page-footer-information__hr-link" href="#">@talent_team_hr</a>
 
-	<section class="screen page-footer">
-		<section class="page-footer-information ">
-			<a class="link page-footer-information__hr-link" href="#">@talent_team_hr</a>
+				<div class="page-footer-information-socials">
+					<a class="link page-footer-information-socials__VK" href="#"><img class="page-footer-information-socials__VK-image" 
+						src="styles/backgrounds/page-footer-information-socials__VK-image.svg">
+					</a>
 
-			<div class="page-footer-information-socials bordered">
-				<a class="link page-footer-information-socials__VK" href="#"><img class="page-footer-information-socials__VK-image" 
-					src="styles/backgrounds/page-footer-information-socials__VK-image.svg">
-				</a>
-
-				<a class=" link page-footer-information-socials__Telegram" href="#"><img class="page-footer-information-socials__Telegram-image" 
-					src="styles/backgrounds/page-footer-information-socials__Telegram-image.svg">
-				</a>
-			</div>
+					<a class=" link page-footer-information-socials__Telegram" href="#"><img class="page-footer-information-socials__Telegram-image" 
+						src="styles/backgrounds/page-footer-information-socials__Telegram-image.svg">
+					</a>
+				</div>
+			</section>
 		</section>
 	</section>
 </body>
