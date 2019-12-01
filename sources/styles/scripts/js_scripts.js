@@ -30,12 +30,12 @@ function change_viewport(){
 
 function scale_content(){
 	var scale = window.innerWidth/1600;
-	if(scale < 0.8) scale = 0.8;
+	if(scale < 1.0) scale = 1.0;
 	if(scale > 2.4) scale = 2.4;
 	document.body.style.cssText += 'transform: scale(' + scale + ');';
 }
 
 function body_onresize(){
 	change_viewport();
-	/*scale_content();*/
+	scale_content();
 }
